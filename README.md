@@ -3,6 +3,21 @@
 ## Abstract
 This repository contains data from direct marketing campaigns (via phone calls) conducted by a Portuguese banking institution. The primary goal is to predict whether a client will subscribe to a term deposit (`y`).
 
+## What’s inside
+
+- **Notebook**: `bank_marketing.ipynb`
+- **Dataset**: `bank-additional-full.csv` (semicolon-delimited)
+- **Dependencies**: `requirements.txt`
+
+## Run locally
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook
+```
+
 ## Dataset Overview
 The dataset captures information from multiple marketing campaigns, often requiring more than one contact with the same client to determine whether the term deposit was subscribed (`yes`) or not (`no`).  
 
